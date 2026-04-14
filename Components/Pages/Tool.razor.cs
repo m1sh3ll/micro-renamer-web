@@ -31,7 +31,7 @@ namespace MicroRenamerWeb.Components.Pages
         [Inject]
         protected NotificationService NotificationService { get; set; }
 
-
+        public string StatusMessage { get; set; }
         private string uploadedFilePath;
 
         // This method runs when a file is uploaded
@@ -62,7 +62,8 @@ namespace MicroRenamerWeb.Components.Pages
             uploadedFilePath = filePath;
 
             // Print the saved file path to the output window for testing
-            Console.WriteLine("Saved: " + uploadedFilePath);
+            //Console.WriteLine("Saved: " + uploadedFilePath);
+            StatusMessage = "Processing: " + uploadedFilePath;
         }
 
 
