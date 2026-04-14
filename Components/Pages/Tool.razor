@@ -1,0 +1,23 @@
+@page "/"
+
+<PageTitle></PageTitle>
+<RadzenRow>
+    <RadzenColumn Size="12" Style="position: static">
+        <RadzenUpload Change="@OnUpload" Style="width: 100%; height: 120px; border: 2px dashed #ccc; display: flex; text-align: left; border-radius: 10px; margin: 10px; margin-left: 0px; margin-right: 0px; margin-top: 0px"></RadzenUpload>
+    </RadzenColumn>
+</RadzenRow>
+<RadzenRow Style="background-color: #3f5166">
+    <RadzenColumn Size="4">
+        <RadzenButton Text="Process" Click="@ProcessFiles" Style="width: 100%; background-color: #4aa3df">
+        </RadzenButton>
+    </RadzenColumn>
+    <RadzenColumn Size="4">
+        <RadzenButton Text="Rename" Style="width: 100%; background-color: #4db6ac">
+        </RadzenButton>
+    </RadzenColumn>
+    <RadzenColumn Size="4">
+        <RadzenButton Text="Title Case" Style="width: 100%; background-color: #8bc34a">
+        </RadzenButton>
+    </RadzenColumn>
+ 
+</RadzenRow>
