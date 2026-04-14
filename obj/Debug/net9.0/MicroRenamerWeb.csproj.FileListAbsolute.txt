@@ -75,3 +75,4 @@ E:\PROJECTS\BLAZOR\MicroRenamerOnline\obj\Debug\net9.0\refint\MicroRenamerWeb.dl
 E:\PROJECTS\BLAZOR\MicroRenamerOnline\obj\Debug\net9.0\MicroRenamerWeb.pdb
 E:\PROJECTS\BLAZOR\MicroRenamerOnline\obj\Debug\net9.0\MicroRenamerWeb.genruntimeconfig.cache
 E:\PROJECTS\BLAZOR\MicroRenamerOnline\obj\Debug\net9.0\ref\MicroRenamerWeb.dll
+E:\PROJECTS\BLAZOR\MicroRenamerOnline\obj\Debug\net9.0\MicroRenamerWeb.sourcelink.json
