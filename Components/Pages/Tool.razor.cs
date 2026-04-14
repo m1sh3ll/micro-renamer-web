@@ -32,6 +32,7 @@ namespace MicroRenamerWeb.Components.Pages
         protected NotificationService NotificationService { get; set; }
 
         public string StatusMessage { get; set; }
+        public List<string> FoundFiles { get; set; } = new List<string>();
         private string uploadedFilePath;
 
         // This method runs when a file is uploaded
