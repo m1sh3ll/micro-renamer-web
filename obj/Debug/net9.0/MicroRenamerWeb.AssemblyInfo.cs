@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MicroRenamerWeb")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+55b9197aa36b0c6305de6d15952359bfec0867ce")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8022a95efffdc719138c1c2ed169867caf3e75f8")]
 [assembly: System.Reflection.AssemblyProductAttribute("MicroRenamerWeb")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MicroRenamerWeb")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

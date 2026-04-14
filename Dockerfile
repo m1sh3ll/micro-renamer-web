@@ -4,8 +4,7 @@ WORKDIR /app
 
 COPY . ./
 
-# 👇 IMPORTANT: specify your project file
-RUN dotnet publish MicroRenamerOnline.csproj -c Release -o out
+RUN dotnet publish MicroRenamerWeb.csproj -c Release -o out
 
 # Runtime stage
 FROM mcr.microsoft.com/dotnet/aspnet:8.0
@@ -16,4 +15,4 @@ COPY --from=build /app/out ./
 ENV ASPNETCORE_URLS=http://+:10000
 EXPOSE 10000
 
-ENTRYPOINT ["dotnet", "MicroRenamerOnline.dll"]
+ENTRYPOINT ["dotnet", "MicroRenamerWeb.dll"]
