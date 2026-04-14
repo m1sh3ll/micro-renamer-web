@@ -29,7 +29,8 @@
       },
       "Microsoft.AspNetCore.Components/9.0.14": {
         "dependencies": {
-          "Microsoft.AspNetCore.Authorization": "9.0.14"
+          "Microsoft.AspNetCore.Authorization": "9.0.14",
+          "Microsoft.AspNetCore.Components.Analyzers": "9.0.14"
         },
         "runtime": {
           "lib/net9.0/Microsoft.AspNetCore.Components.dll": {
@@ -38,6 +39,7 @@
           }
         }
       },
+      "Microsoft.AspNetCore.Components.Analyzers/9.0.14": {},
       "Microsoft.AspNetCore.Components.Forms/9.0.14": {
         "dependencies": {
           "Microsoft.AspNetCore.Components": "9.0.14"
@@ -163,6 +165,13 @@
       "sha512": "sha512-dh9H5mgN6/xaCZObYyBo94Jxwxj+J7B+Ch8++vVdgd8IC7FNws2bVvyreT2sBkCFKFqf6gUPiSKwBa6ukT9yGw==",
       "path": "microsoft.aspnetcore.components/9.0.14",
       "hashPath": "microsoft.aspnetcore.components.9.0.14.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Components.Analyzers/9.0.14": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2yrkT+Akish37Bm4ECSCPg8lrjCkqszzqahAI0elI1wZlAbsXaoW6W5eEp3k5lUua5ZgQBTy9N3+RQGoOWQFWw==",
+      "path": "microsoft.aspnetcore.components.analyzers/9.0.14",
+      "hashPath": "microsoft.aspnetcore.components.analyzers.9.0.14.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Components.Forms/9.0.14": {
       "type": "package",
