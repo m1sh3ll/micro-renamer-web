@@ -11,6 +11,15 @@
         <RadzenButton Text="Process" Click="@ProcessFiles" Style="width: 100%; background-color: #4aa3df">
         </RadzenButton>
         <p>@StatusMessage</p>
+        @if (FoundFiles != null && FoundFiles.Count > 0)
+{
+    <ul>
+        @foreach (var file in FoundFiles)
+        {
+            <li>@file</li>
+        }
+    </ul>
+}
     </RadzenColumn>
     <RadzenColumn Size="4">
         <RadzenButton Text="Rename" Style="width: 100%; background-color: #4db6ac">
