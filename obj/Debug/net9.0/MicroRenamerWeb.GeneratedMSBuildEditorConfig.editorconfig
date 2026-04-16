@@ -1,7 +1,5 @@
 is_global = true
 build_property.TargetFramework = net9.0
-build_property.TargetFrameworkIdentifier = .NETCoreApp
-build_property.TargetFrameworkVersion = v9.0
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
@@ -40,6 +38,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [E:/PROJECTS/BLAZOR/MicroRenamerOnline/Components/Pages/NotFound.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xOb3RGb3VuZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/PROJECTS/BLAZOR/MicroRenamerOnline/Components/Pages/Resize.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xSZXNpemUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/PROJECTS/BLAZOR/MicroRenamerOnline/Components/Pages/Tool.razor]

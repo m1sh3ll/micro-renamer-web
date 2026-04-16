@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v9.0": {
       "MicroRenamerWeb/1.0.0": {
         "dependencies": {
-          "Radzen.Blazor": "10.2.3"
+          "Radzen.Blazor": "10.2.3",
+          "SixLabors.ImageSharp": "3.1.12"
         },
         "runtime": {
           "MicroRenamerWeb.dll": {}
@@ -143,6 +144,14 @@
             "fileVersion": "10.2.3.0"
           }
         }
+      },
+      "SixLabors.ImageSharp/3.1.12": {
+        "runtime": {
+          "lib/net6.0/SixLabors.ImageSharp.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.1.12.0"
+          }
+        }
       }
     }
   },
@@ -242,6 +251,13 @@
       "sha512": "sha512-L5Lo1GCCrJ6IPiRbXsJ4/cNRJXuwbSCLfLjcio/RMTH4HA2VNZx4fFw/IiIdCB0yjxy6NTdTGonNzUXdhiqGYg==",
       "path": "radzen.blazor/10.2.3",
       "hashPath": "radzen.blazor.10.2.3.nupkg.sha512"
+    },
+    "SixLabors.ImageSharp/3.1.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iAg6zifihXEFS/t7fiHhZBGAdCp3FavsF4i2ZIDp0JfeYeDVzvmlbY1CNhhIKimaIzrzSi5M/NBFcWvZT2rB/A==",
+      "path": "sixlabors.imagesharp/3.1.12",
+      "hashPath": "sixlabors.imagesharp.3.1.12.nupkg.sha512"
     }
   }
 }

@@ -41,6 +41,7 @@ E:\PROJECTS\BLAZOR\MicroRenamerOnline\obj\Debug\net9.0\MicroRenamerWeb.pdb
 E:\PROJECTS\BLAZOR\MicroRenamerOnline\obj\Debug\net9.0\MicroRenamerWeb.genruntimeconfig.cache
 E:\PROJECTS\BLAZOR\MicroRenamerOnline\obj\Debug\net9.0\ref\MicroRenamerWeb.dll
 E:\PROJECTS\BLAZOR\MicroRenamerOnline\obj\Debug\net9.0\MicroRenamerWeb.sourcelink.json
+E:\PROJECTS\BLAZOR\MicroRenamerOnline\bin\Debug\net9.0\SixLabors.ImageSharp.dll
 E:\PROJECTS\BLAZOR\MicroRenamerOnline\obj\Debug\net9.0\compressed\c1kki6wrpy-qx7spzc1dw.gz
 E:\PROJECTS\BLAZOR\MicroRenamerOnline\obj\Debug\net9.0\compressed\13w5d5gf1p-pipa4laf8a.gz
 E:\PROJECTS\BLAZOR\MicroRenamerOnline\obj\Debug\net9.0\compressed\t8kfz0jwhf-38fu9w4dua.gz

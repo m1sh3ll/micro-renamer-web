@@ -1,0 +1,26 @@
+@page "/resize"
+@using Radzen
+
+<PageTitle>Resize</PageTitle>
+<RadzenRow>
+    <RadzenColumn Size="12" Style="position: static">
+ <p>@((MarkupString)StatusMessage)</p>       
+    </RadzenColumn>
+</RadzenRow>
+<RadzenRow Style="background-color: #3f5166">
+
+    <RadzenColumn Size="3">
+        <RadzenButton Text="Resize Images"
+                      Click="@ProcessImages"
+                      Style="width: 100%; background-color: #4aa3df">
+        </RadzenButton>      
+    </RadzenColumn>
+</RadzenRow>
+<RadzenRow>
+    <RadzenColumn Size="12" Style="position: static">
+        <RadzenUpload Change="@OnUpload" Multiple="true"
+                      Style="width: 100%; height: 120px; border: 2px dashed #ccc; display: flex; text-align: left; border-radius: 10px; margin: 10px; margin-left: 0px; margin-right: 0px; margin-top: 0px">
+        </RadzenUpload>
+    </RadzenColumn>
+</RadzenRow>
+
